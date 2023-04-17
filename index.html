@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <title>My Portfolio</title>
+    <style>
+        body{
+            background-color: rgb(173, 171, 171);
+            font-family:'Lobster', cursive; ;
+        }
+        .container{
+            /* border: 1px solid black; */
+            margin: 1rem;
+            padding: 1rem;
+            height: 56.5rem;
+            background-color: white;
+            box-shadow: -4px 4px darkslategrey;
+        }
+        nav{
+            display: flex;
+            /* border: 1px solid black; */
+            height: 6rem;
+            background-color:rgb(87, 84, 84);
+            text-shadow: 3px 5px black;
+            text-align: center;
+            
+            border-radius: 10px;
+        }
+        nav>h1{
+            font-size: 4.6rem;
+            margin-top: 0;
+            margin-left: 11rem;
+            color: rgb(212, 212, 212);
+            /* font-family:'Lobster', cursive; */
+        }
+       nav>img{
+        /* border: 1px solid black; */
+        /* border-radius: ; */
+        margin-left: 2rem;
+        margin-top: -2rem;
+        filter: brightness(200%);
+       }
+       .section1{
+        /* border: 1px solid black; */
+        height: 5rem;
+        margin-top: 0;
+       }
+       .section1>ul{
+        display: flex;
+        padding: 0.6rem;
+        /* margin: 1rem; */
+        justify-content: space-evenly;
+       }
+       ul>a{
+        text-decoration: none;
+        color: rgb(63, 61, 61);
+        font-size: 2rem;
+        /* font-family: 'Lobster', cursive; */
+       }
+       /* .section1> ul>li:hover{
+        background-color: rgb(104, 179, 35);
+        box-shadow: 2px 4px black;
+       } */
+       .section2{
+        display: flex;
+        /* border: 1px solid black; */
+        height: 37rem;
+       }
+        .about{
+            /* border: 1px solid black; */
+            height: 35rem;
+            width: 25rem;
+            padding: 1rem;
+            background-color: rgb(224, 217, 217);
+            border-radius: 10px;
+            
+        }
+        .about>h1{
+            text-align: center;
+            font-size: 3rem;
+            margin: 0;
+            color: rgb(44, 42, 42);
+            text-shadow: 1px 2px rgb(114, 113, 111);
+
+        }
+        .about>p{
+            font-size: 1.3rem;
+            color: gray ;
+        }
+        .facts{
+            display: flex;
+            /* width: 100%; */
+            /* border: 1px solid black; */
+            height: 34rem;
+            padding: 1rem;
+            background-color: lightgray;
+            padding-top: 2rem;
+            margin-left: 0.5rem;
+            border-radius: 10px;
+        }
+        .img1{
+            margin-left: 2rem;
+            margin-top: 3rem;
+        }
+        .fact1{
+            margin-top: 1.5rem;
+        }
+        .fact1>ul{
+            font-size: 20px;
+            margin-left: 3rem;
+        }
+        .fact1>ul>li{
+            padding: 4px;
+        }
+    .icons{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 1.2rem;
+    }
+    .icons>img{
+        /* border: 1px solid white; */
+        border-radius: 50px;
+        
+    }
+    .footer{
+        margin-top: 2rem;
+        padding-top: 0.5rem;
+        /* border: 1px solid black; */
+        height: 5rem;
+        background-color:rgb(87, 84, 84);
+        color: white;
+        text-shadow: 2px 3px black;font-family: sans-serif;
+    }
+   
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <img src="./images/logo-icon.png" width="250" height="160" alt="Code_logo">
+            <h1>Ms. Kiran M. Pisal</h1>
+        </nav>
+        <section class="section1">
+            <ul>
+                <a href="#"><li>Home</li></a>
+                <a href="#"><li>About</li></a>
+                <a href="#"><li>Projects</li></a>
+                <a href="#"><li>Certifications</li></a>
+                <a href="#"><li>Social Media</li></a>
+                <a href="#"><li>Contact</li></a>
+            </ul>
+        </section>
+        <section class="section2">
+            <div class="about">
+                <h1>About</h1>
+                <p>I am delighted to introduce myself as a Computer Science student. I am 24 years old and I'm originally from Beed, Maharastra. My family shifted in pune when I was 13. I completed my bachelor degree in Computer Science and subsequently pursuing my Masters in Computer Science from Pune University. My ultimate goal is to grow and advance in the field of computer science and make meaningful contributions to the organization.</p>
+            <hr>
+           <center> <h3>Follow me on👇</h3></center>
+            <div class="icons">
+                <a href="#"><img src="./images/Facebook-logo.png" width="40" height="40" style="background-color: white;" alt="facebook"></a>
+                <a href="#"><img src="./images/instagram logo.png" width="40" height="40" alt="instagram"></a>
+                <a href="#"><img src="./images/LinkedIn_logo_initials.png" width="40" height="40" alt="linkedin"></a>
+                <a href="#"> <img src="./images/twitter.png" width="40" height="40" alt="twitter"></a>
+            </div>
+            </div>
+            <div class="facts">
+                <div class="img1">
+                    <img src="./images/self_image.jpg" width="500" height="400" alt="">
+                </div>
+                <div class="fact1">
+                   <center> <h2>Random facts about kiran:</h2></center>
+                    <ul>
+                        <li>I am the proud to be an Indian.</li>
+                        <li>My favorite color is peach </li>
+                        <li>I love sweet and sour fruits.</li>
+                        <li>I hate chocolates unless it has vanilla flavour in it.</li>
+                        <li>I just recently baught a new Vaspa.</li>
+                        <li>I am good at graphic designing.</li>
+                        <li>I love cooking.</li>
+                        <li>Best thing about me is that I can speak two Fun Code🤫 Languages😊 apart from Marathi, Hindi & English</li>
+
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <center><h2>@ Ms.kiran M. Pisal 2023</h2></center>
+        </footer>
+    </div>
+</body>
+</html>
